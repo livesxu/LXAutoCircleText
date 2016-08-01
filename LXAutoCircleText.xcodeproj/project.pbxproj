@@ -15,6 +15,7 @@
 		524756C71CF3F66300A4FB26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524756C51CF3F66300A4FB26 /* LaunchScreen.storyboard */; };
 		524756D21CF3F66300A4FB26 /* LXAutoCircleTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524756D11CF3F66300A4FB26 /* LXAutoCircleTextTests.m */; };
 		524756DD1CF3F66300A4FB26 /* LXAutoCircleTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 524756DC1CF3F66300A4FB26 /* LXAutoCircleTextUITests.m */; };
+		524756EC1CF3F76A00A4FB26 /* LXAutoCircleText.m in Sources */ = {isa = PBXBuildFile; fileRef = 524756EB1CF3F76A00A4FB26 /* LXAutoCircleText.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		524756D81CF3F66300A4FB26 /* LXAutoCircleTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LXAutoCircleTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		524756DC1CF3F66300A4FB26 /* LXAutoCircleTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXAutoCircleTextUITests.m; sourceTree = "<group>"; };
 		524756DE1CF3F66300A4FB26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524756EA1CF3F76A00A4FB26 /* LXAutoCircleText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LXAutoCircleText.h; sourceTree = "<group>"; };
+		524756EB1CF3F76A00A4FB26 /* LXAutoCircleText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LXAutoCircleText.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				524756BB1CF3F66300A4FB26 /* AppDelegate.m */,
 				524756BD1CF3F66300A4FB26 /* ViewController.h */,
 				524756BE1CF3F66300A4FB26 /* ViewController.m */,
+				524756EA1CF3F76A00A4FB26 /* LXAutoCircleText.h */,
+				524756EB1CF3F76A00A4FB26 /* LXAutoCircleText.m */,
 				524756C01CF3F66300A4FB26 /* Main.storyboard */,
 				524756C31CF3F66300A4FB26 /* Assets.xcassets */,
 				524756C51CF3F66300A4FB26 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				524756BF1CF3F66300A4FB26 /* ViewController.m in Sources */,
+				524756EC1CF3F76A00A4FB26 /* LXAutoCircleText.m in Sources */,
 				524756BC1CF3F66300A4FB26 /* AppDelegate.m in Sources */,
 				524756B91CF3F66300A4FB26 /* main.m in Sources */,
 			);
